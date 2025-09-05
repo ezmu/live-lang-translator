@@ -1,0 +1,19 @@
+{
+    "name": "ezmu/live-lang-translator",
+    "description": "LiveLang Translator package",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Ezmu\\LiveLangTranslator\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ezmu\\LiveLangTranslator\\LiveLangTranslatorServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
